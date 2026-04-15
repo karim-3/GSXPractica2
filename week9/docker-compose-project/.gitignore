@@ -1,0 +1,24 @@
+# Secrets i configuració local
+.env
+
+# Volums i dades persistents (per evitar pujar base de dades local)
+db-data/
+
+# Build artifacts i carpetes temporals
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+env/
+venv/
+.venv/
+dist/
+build/
+*.egg-info/
+
+# Logs i fitxers de sistema
+*.log
+.DS_Store
+.vscode/
+.idea/
