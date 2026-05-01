@@ -1,0 +1,5 @@
+- explicar el proxi comanda del cubernets, per connectar se a la xarxa 
+- fer servir el nginx i que estem fent amb ell
+- node port (perque es pugui accedir des de fora)
+- com hem configurat el volum i config map
+- explicar les configuracions amb la demo de l us de repliques
