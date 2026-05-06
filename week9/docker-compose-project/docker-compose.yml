@@ -1,6 +1,15 @@
 version: '3.8'
 
 services:
+  nginx:
+    image: nginx-gsx
+    ports:
+      - "80:80"
+    networks:
+      - gsx-network
+    depends_on:
+      - app
+
   app:
     build: .
     ports:
