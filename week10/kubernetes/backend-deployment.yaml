@@ -17,3 +17,10 @@ spec:
           image: karim3333/app-gsx:v1
           ports:
             - containerPort: 3000
+          volumeMounts:
+            - name: backend-storage
+              mountPath: /data
+      volumes:
+        - name: backend-storage
+          persistentVolumeClaim:
+            claimName: backend-pvc
